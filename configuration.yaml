@@ -32,5 +32,5 @@ discovery:
 
 # Security
 http:
-  api_password: kristiinankaupunki
+  api_password: inferno
   
