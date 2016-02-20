@@ -1,0 +1,36 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 59.35
+  longitude: 17.9167
+  # C for Celcius, F for Fahrenheit
+  temperature_unit: C
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Stockholm
+
+# Track the sun
+sun:
+
+# Allows you to issue voice commands from the frontend
+conversation:
+
+# View all events in a logbook
+logbook:
+
+# Enables support for tracking state changes over time.
+history:
+
+# Enables the frontend
+frontend:
+
+# Checks for available updates
+updater:
+
+# Discover some devices automatically
+discovery:
+
+# Security
+http:
+  api_password: kristiinankaupunki
+  
